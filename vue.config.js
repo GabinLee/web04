@@ -1,7 +1,8 @@
 module.exports = {
+  "publicPath": '/web04',
+  "outputDir": 'docs',
   "transpileDependencies": [
     "vuetify"
   ],
-  publicPath: '/web04',
-  outputDir: 'docs'
+  
 }
