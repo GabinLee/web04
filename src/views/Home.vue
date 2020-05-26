@@ -69,24 +69,24 @@ export default {
       { title: "sample", price: "$100", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", image: require("../assets/home/card-view01.jpg") },
       { title: "sample", price: "$360", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", image: require("../assets/home/card-view02.jpg") },
       { title: "sample", price: "$240", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", image: require("../assets/home/card-view03.jpg") },
-      { title: "sample", price: "$500", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", image: require("../assets/home/card-view01.jpg") }
+      { title: "sample", price: "$500", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", image: require("../assets/home/card-view04.jpg") }
     ],
     location :[
-      { name: "busan", image: require("../assets/home/photo-view-busan.jpg") } ,
-      { name: "danang", image: require("../assets/home/photo-view-danang.jpg") } ,
-      { name: "hongkong", image: require("../assets/home/photo-view-hongkong.jpg") } ,
-      { name: "singapore", image: require("../assets/home/photo-view-singapore.jpg") } ,
-      { name: "thailand", image: require("../assets/home/photo-view-thailand.jpg") } ,
-      { name: "bali", image: require("../assets/home/photo-view-bali.jpg") } ,
-      { name: "boracay", image: require("../assets/home/photo-view-boracay.jpg") } ,
-      { name: "cebu", image: require("../assets/home/photo-view-cebu.jpg") } ,
-      { name: "hawaii", image: require("../assets/home/photo-view-hawaii.jpg") } ,
-      { name: "phuket", image: require("../assets/home/photo-view-phuket.jpg") } ,
-      { name: "las vegas", image: require("../assets/home/photo-view-las vegas.jpg") } ,
-      { name: "san francisco", image: require("../assets/home/photo-view-sanfrancisco.jpg") } ,
-      { name: "london", image: require("../assets/home/photo-view-london.jpg") } ,
-      { name: "prague", image: require("../assets/home/photo-view-prague.jpg") } ,
-      { name: "dubai", image: require("../assets/home/photo-view-dubai.jpg") }
+      { name: "busan", image: require("../assets/photo-view-busan.jpg") } ,
+      { name: "danang", image: require("../assets/photo-view-danang.jpg") } ,
+      { name: "hongkong", image: require("../assets/photo-view-hongkong.jpg") } ,
+      { name: "singapore", image: require("../assets/photo-view-singapore.jpg") } ,
+      { name: "thailand", image: require("../assets/photo-view-thailand.jpg") } ,
+      { name: "bali", image: require("../assets/photo-view-bali.jpg") } ,
+      { name: "boracay", image: require("../assets/photo-view-boracay.jpg") } ,
+      { name: "cebu", image: require("../assets/photo-view-cebu.jpg") } ,
+      { name: "hawaii", image: require("../assets/photo-view-hawaii.jpg") } ,
+      { name: "phuket", image: require("../assets/photo-view-phuket.jpg") } ,
+      { name: "las vegas", image: require("../assets/photo-view-las vegas.jpg") } ,
+      { name: "san francisco", image: require("../assets/photo-view-sanfrancisco.jpg") } ,
+      { name: "london", image: require("../assets/photo-view-london.jpg") } ,
+      { name: "prague", image: require("../assets/photo-view-prague.jpg") } ,
+      { name: "dubai", image: require("../assets/photo-view-dubai.jpg") }
     ]
   })
 

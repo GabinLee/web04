@@ -89,9 +89,9 @@
     .text-box{
       width: 60%;
       display: flex;
-      align-items: center;
       justify-content: center;
       flex-direction: column;
+      text-align: center;
     }
   }
 

@@ -3,16 +3,16 @@
     <header id="header">
       <div class="h-container mw1440">
         <div class="logo-box">
-          <a href="/" class="font-roboto">SAMPLE</a>
+          <a href="/web04" class="font-roboto">SAMPLE</a>
         </div>
         <nav class="nav-box uppercase fs14">
-          <router-link to="/" class="nav-item" :class="{ checked : selectedIndex == 0 ? true : false }" @click.native="clickedNavItem(0)"> home </router-link>
+          <router-link to="/" class="nav-item" :class="{ checked : selectedIndex == 0 ? true : false }" @click.native="clickedNavItem(0)" onclick="window.scrollTo(0,0);"> home </router-link>
 
-          <router-link to="/destination" class="nav-item" :class="{ checked : selectedIndex == 1 ? true : false }" @click.native="clickedNavItem(1)"> destination </router-link>
+          <router-link to="/destination" class="nav-item" :class="{ checked : selectedIndex == 1 ? true : false }" @click.native="clickedNavItem(1)" onclick="window.scrollTo(0,0);"> destination </router-link>
 
-          <router-link to="/about" class="nav-item menu-item" :class="{ checked : selectedIndex == 2 ? true : false }" @click.native="clickedNavItem(2)"> about </router-link>
+          <router-link to="/about" class="nav-item menu-item" :class="{ checked : selectedIndex == 2 ? true : false }" @click.native="clickedNavItem(2)" onclick="window.scrollTo(0,0);"> about </router-link>
 
-          <router-link to="/contact" class="nav-item" :class="{ checked : selectedIndex == 3 ? true : false}" @click.native="clickedNavItem(3)"> contact </router-link>
+          <router-link to="/contact" class="nav-item" :class="{ checked : selectedIndex == 3 ? true : false}" @click.native="clickedNavItem(3)" onclick="window.scrollTo(0,0);"> contact </router-link>
 
           <!-- <router-link to="/contact" class="nav-item" :class="{ checked : selectedIndex == 4 ? true : false }" @click.native="clickedNavItem(4)">
             <span>contact</span>
@@ -33,7 +33,7 @@
           <v-icon>mdi-close</v-icon>
         </button>
         <div class="mobile-nav-box mobile-nav-box-home">
-          <router-link to="/home" class="nav-item">
+          <router-link to="/" class="nav-item">
             <p>home</p>
           </router-link>
         </div>
@@ -59,7 +59,7 @@
     </div>
 
     <main>
-      <router-view/>
+      <router-view />
     </main>
     
     <footer>
@@ -301,7 +301,7 @@ export default {
 
 /* main */
   main{
-    // background-color: #eee;
+    overflow: hidden;
   }
 
 

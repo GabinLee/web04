@@ -20,26 +20,26 @@
 export default {
   data: () => ({
     location :[
-      { name: "busan", image: require("../assets/destination/photo-view-busan.jpg") } ,
-      { name: "danang", image: require("../assets/destination/photo-view-danang.jpg") } ,
-      { name: "hongkong", image: require("../assets/destination/photo-view-hongkong.jpg") } ,
-      { name: "singapore", image: require("../assets/destination/photo-view-singapore.jpg") } ,
-      { name: "thailand", image: require("../assets/destination/photo-view-thailand.jpg") } ,
-      { name: "bali", image: require("../assets/destination/photo-view-bali.jpg") } ,
-      { name: "boracay", image: require("../assets/destination/photo-view-boracay.jpg") } ,
-      { name: "cebu", image: require("../assets/destination/photo-view-cebu.jpg") } ,
-      { name: "hawaii", image: require("../assets/destination/photo-view-hawaii.jpg") } ,
-      { name: "phuket", image: require("../assets/destination/photo-view-phuket.jpg") } ,
-      { name: "las vegas", image: require("../assets/destination/photo-view-las vegas.jpg") } ,
-      { name: "san francisco", image: require("../assets/destination/photo-view-sanfrancisco.jpg") } ,
-      { name: "london", image: require("../assets/destination/photo-view-london.jpg") } ,
-      { name: "prague", image: require("../assets/destination/photo-view-prague.jpg") } ,
-      { name: "dubai", image: require("../assets/destination/photo-view-dubai.jpg") },
-      { name: "nha trang", image: require("../assets/destination/photo-view-nhatrang.jpg") },
-      { name: "taipei", image: require("../assets/destination/photo-view-taipei.jpg") },
-      { name: "seattle", image: require("../assets/destination/photo-view-seattle.jpg") },
-      { name: "sydney", image: require("../assets/destination/photo-view-sydney.jpg") },
-      { name: "rome", image: require("../assets/destination/photo-view-rome.jpg") }
+      { name: "busan", image: require("../assets/photo-view-busan.jpg") } ,
+      { name: "danang", image: require("../assets/photo-view-danang.jpg") } ,
+      { name: "hongkong", image: require("../assets/photo-view-hongkong.jpg") } ,
+      { name: "singapore", image: require("../assets/photo-view-singapore.jpg") } ,
+      { name: "thailand", image: require("../assets/photo-view-thailand.jpg") } ,
+      { name: "bali", image: require("../assets/photo-view-bali.jpg") } ,
+      { name: "boracay", image: require("../assets/photo-view-boracay.jpg") } ,
+      { name: "cebu", image: require("../assets/photo-view-cebu.jpg") } ,
+      { name: "hawaii", image: require("../assets/photo-view-hawaii.jpg") } ,
+      { name: "phuket", image: require("../assets/photo-view-phuket.jpg") } ,
+      { name: "las vegas", image: require("../assets/photo-view-las vegas.jpg") } ,
+      { name: "san francisco", image: require("../assets/photo-view-sanfrancisco.jpg") } ,
+      { name: "london", image: require("../assets/photo-view-london.jpg") } ,
+      { name: "prague", image: require("../assets/photo-view-prague.jpg") } ,
+      { name: "dubai", image: require("../assets/photo-view-dubai.jpg") },
+      { name: "nha trang", image: require("../assets/photo-view-nhatrang.jpg") },
+      { name: "taipei", image: require("../assets/photo-view-taipei.jpg") },
+      { name: "seattle", image: require("../assets/photo-view-seattle.jpg") },
+      { name: "sydney", image: require("../assets/photo-view-sydney.jpg") },
+      { name: "rome", image: require("../assets/photo-view-rome.jpg") }
     ]
   })
 }
